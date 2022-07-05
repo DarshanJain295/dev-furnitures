@@ -1,22 +1,17 @@
 import React from 'react';
 import './App.css';
-import {Navbar} from './components/navigation/navbar';
-import {Products} from './components/products/products';
-import Footer from './components/footer/footer';
-import {Story} from './components/story/story'
-//slider
-import {Slider} from './components/2nd/slider'
+import Homepage from './pages/homepage/homepage';
+import { Route } from 'react-router-dom'
+
+const Anotherpage = ()=>(
+
+)
+
 
 function App() {
   return (
-    <div className='App'>
-      <div className='patch'>
-        < Navbar/>
-        < Story/>
-        < Slider/>  
-      </div>      
-      < Products/>
-      < Footer/>     
+    <div>
+         < Homepage/>
     </div>
   );
 }
