@@ -17,8 +17,8 @@ export const Slider = () => {
      {index.map((idx)=>{
         return (
           <div className="description">
-      <div class="bottom-right">Price: Bahut jyada</div>
-      <img src={idx} className="sliderimg" alt=""/></div>
+          <div class="bottom-right">Price: Bahut jyada</div>
+          <img src={idx} className="sliderimg" alt=""/></div>
         )
      })} 
       </AliceCarousel>
