@@ -1,0 +1,29 @@
+.sober{
+    height: 40px;
+    display: inline-flex;
+    justify-content:space-between;
+    /* align-items: center;  */
+    width:100%;
+    border-bottom: solid lightgray 1px;  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sober h2{font-weight: 400;}
+.sober ul{
+    display:flex;
+    flex-flow: row;
+    list-style: none;
+    
+}
+.sober li{
+    margin:0px 60px;
+    padding: 5px 5px;
+}
+
+.sober a
+{   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black
+}
+.whole{
+    padding: 20px 60px;
+}

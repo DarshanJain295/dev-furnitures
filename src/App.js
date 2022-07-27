@@ -1,17 +1,24 @@
 import React from 'react';
 import './App.css';
 import Homepage from './pages/homepage/homepage';
-import { Route } from 'react-router-dom'
+import ShopPage from './pages/shop-page/shop-page';
+import {Routes,Route } from 'react-router-dom'
+import Navbar from './components/navigation/navbar';
+import Footer from './components/footer/footer';
 
-const Anotherpage = ()=>(
-
-)
 
 
 function App() {
   return (
     <div>
-         < Homepage/>
+    <Navbar/>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/shop' element={<ShopPage/>}/>
+        <Route path='/about_us' element={<ShopPage/>}/>
+        <Route path='/preview' element={<ShopPage/>}/>    
+      </Routes>
+    <Footer/>
     </div>
   );
 }
